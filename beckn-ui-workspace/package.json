@@ -8,7 +8,7 @@
   ],
   "prettier": "@beckn-ui/prettier-config",
   "scripts": {
-    "postinstall": "yarn prepare",
+    "postinstall": "bash -c 'if [ -d .git ]; then yarn prepare; fi'",
     "prepare": "npx husky install",
     "dev:osm": "yarn workspace @beckn-ui/osm dev",
     "build:osm": "yarn workspace @beckn-ui/osm build",
