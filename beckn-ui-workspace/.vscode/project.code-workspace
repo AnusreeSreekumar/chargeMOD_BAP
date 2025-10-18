@@ -1,0 +1,67 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": "../"
+    },
+    {
+      "name": "Molecules",
+      "path": "../packages/molecules"
+    },
+    {
+      "name": "Prettier",
+      "path": "../packages/prettier-config"
+    },
+    {
+      "name": "Becknified-components",
+      "path": "../packages/becknified-components"
+    },
+		{
+      "name": "Dhp",
+      "path": "../apps/dhp"
+    },
+    {
+      "name": "Osm",
+      "path": "../apps/osm"
+    },
+		{
+      "name": "Dsep",
+      "path": "../apps/dsep"
+    },
+    {
+      "name": "Dsnp",
+      "path": "../apps/dsnp"
+    },
+    {
+      "name": "Playground",
+      "path": "../apps/playground"
+    },
+    {
+      "name": "Odr",
+      "path": "../apps/odr"
+    },
+    {
+      "name": "Industry_4.0",
+      "path": "../apps/industry_4.0"
+    },
+    {
+      "name": "regen-agri",
+      "path": "../apps/regen-agri"
+    },
+    {
+      "name": "taxi-bpp",
+      "path": "../apps/taxi-bpp"
+    },
+    {
+      "name": "retail",
+      "path": "../apps/retail"
+    }
+  ],
+	"settings": {
+    "files.exclude": {
+      "node_modules/": true,
+      "packages/": true
+    },
+    "typescript.tsdk": "Root/node_modules/typescript/lib",
+		}
+}
