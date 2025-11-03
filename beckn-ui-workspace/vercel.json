@@ -1,7 +1,0 @@
-{
-  "buildCommand": "yarn install --frozen-lockfile && yarn workspace ev-bap build",
-  "installCommand": "yarn install --frozen-lockfile",
-  "framework": "nextjs",
-  "outputDirectory": "apps/ev-bap/.next",
-  "rootDir": "apps/ev-bap"
-}
